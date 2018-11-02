@@ -1,0 +1,9 @@
+#javascript
+
+function XpowerN(x, n) {
+    var j = x;
+    for (var i = 1; i < n; i++) {
+        x *= j;
+    }
+    return x;
+}
